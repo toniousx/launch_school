@@ -228,7 +228,7 @@ c = a.uniq
 
 
 
-12. What does the following code return and output? Why? Which concept demonstrates?
+12. What does the last line of following code return and output? Why?
 ```ruby .numberLines
 def test(str)
   str  += '!'
@@ -258,7 +258,6 @@ array1 = %w(Moe Larry Curly Shemp Harpo Chico Groucho Zeppo)
 array2 = []
 array1.each { |value| array2 << value }
 array1.each { |value| value.upcase! if value.start_with?('C', 'S') }
-puts array2
 ```
 
 
@@ -297,10 +296,6 @@ arr2 = arr1
 arr3 = arr2.map do |char|
  char.upcase
 end
-
-puts arr1
-puts arr2
-p arr3
 ```
 
 </br>
